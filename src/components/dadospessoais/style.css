@@ -1,0 +1,193 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.profie{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+
+
+.minilogo{
+  width: 50px;
+  height: 50px;
+}
+
+ .personaldata{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+   color: red;
+   font-size: medium;
+   margin-bottom: 50px;
+   font-size: larger;
+ }
+ 
+ .placeholder{
+     width: 290%;
+     height: 40px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     border: 1px solid #707070;
+     opacity: 1;
+     padding: 10px;
+     text-decoration: underline;
+     margin: 10px;
+ }
+
+ .picture{
+   color: #707070;
+   font-size: smaller;
+   text-decoration: underline;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin: 10px;
+  }
+
+  
+
+  .profile{
+    display: flex;
+    align-items: left;
+  }
+ 
+ .register{
+   background-color: #071AC8;
+   color: white;
+   padding: 10px;
+   border-radius: 20px;
+   width: 270px;
+   height: 52px;
+   font-size: 20px;
+   margin: 20px;
+   border: #071AC8;
+   cursor: pointer;
+ }
+  
+
+ main{
+    display: flex;
+    width: 50%;
+    height: 110vh;
+  }
+
+  div{
+    flex: 3;
+  }
+
+  h1{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    padding: 3px;
+    cursor: pointer;
+  }
+
+  .EmailName{
+     color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: -40px
+  }
+
+  .bg{
+    flex: 7;
+    background-image: url("../../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .rst{
+    width: 50px;
+    height: 50px;
+  }
+
+
+  
+ .list{
+  color: #FFFFFF;
+  margin: 50px;
+  }
+  
+  .list li{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  @media (max-width: 999px){
+
+    .list li{
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    font-size: larger;
+    cursor: pointer;
+    }
+
+    .placeholder{
+      width: 150%;
+      height: 20px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+      text-decoration: underline;
+      margin: 5px;
+    }
+
+    .register{
+      background-color: #071AC8;
+      color: white;
+      padding: 10px;
+      border-radius: 20px;
+      width: 90px;
+      height: 40px;
+      font-size: 20px;
+      margin: 20px;
+      border: #071AC8;
+      cursor: pointer;
+    }
+  }
+
+  @media(max-width:552px){
+    .bg{
+      display: none;
+    }
+    .register{
+      background-color: #071AC8;
+      color: white;
+      padding: 10px;
+      border-radius: 20px;
+      width: 80px;
+      height: 40px;
+      font-size: 20px;
+      margin: 20px;
+      border: #071AC8;
+      cursor: pointer;
+    }
+  }
+  
+  @media(max-width:1040){
+    .register{
+      background-color: #071AC8;
+      color: white;
+      padding: 10px;
+      border-radius: 20px;
+      width: 80px;
+      height: 40px;
+      font-size: 20px;
+      margin: 20px;
+      border: #071AC8;
+      cursor: pointer;
+    }
+  }
+
+  
+  
