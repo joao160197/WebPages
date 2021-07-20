@@ -10,7 +10,12 @@ function List() {
         <div className="bg">
           <header>
             <aside>
-              <h1>Sair</h1>
+              <h1>
+                {' '}
+                <Link to="/login" className="sair-link">
+                  Sair
+                </Link>
+              </h1>
               <div>
                 <img src={logo} className="minilogo" />
                 <div className="EmailName">
