@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import './styles.css';
 import logo from '../../img/logo.png';
@@ -19,7 +20,12 @@ function List() {
               </div>
               <div className="list">
                 <ul>
-                  <li>Dados Pessoais</li>
+                  <li>
+                    {' '}
+                    <Link to="/dadospessoais" className="list-link">
+                      Dados Pessoais
+                    </Link>
+                  </li>
                   <li>TodoList</li>
                 </ul>
               </div>

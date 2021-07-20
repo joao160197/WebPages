@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 import profile from '../../img/profile.png';
 import logo from '../../img/logo.png';
@@ -9,7 +10,12 @@ function Dadospessoais() {
       <main>
         <div className="bg">
           <header>
-            <h1>Sair</h1>
+            <h1>
+              {' '}
+              <Link to="/login" className="sair-link">
+                Sair
+              </Link>
+            </h1>
             <div>
               <img src={logo} className="minilogo" />
               <div className="EmailName">
@@ -20,7 +26,11 @@ function Dadospessoais() {
             <div className="list">
               <ul>
                 <li>Dados Pessoais</li>
-                <li>TodoList</li>
+                <li>
+                  <Link to="/list" className="list-link">
+                    TodoList
+                  </Link>
+                </li>
               </ul>
             </div>
           </header>

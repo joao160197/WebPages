@@ -21,9 +21,12 @@ function Registermenu() {
               placeholder="Confirmação de Senha"
               className="input"
             />
-            <button className="register" type="submit">
-              Cadastrar
-            </button>
+            <Link to="/login" className="link">
+              <button className="register" type="submit">
+                Cadastrar
+              </button>
+            </Link>
+
             <Link to="/login" className="link">
               Eu ja possuo Cadastro.
             </Link>

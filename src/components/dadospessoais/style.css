@@ -88,6 +88,7 @@
     padding: 3px;
     cursor: pointer;
   }
+  
 
   .EmailName{
      color: #FFFFFF;
@@ -120,6 +121,18 @@
     padding: 20px;
     font-size: larger;
     cursor: pointer;
+  }
+
+  .list-link{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    font-size:medium;
+    cursor: pointer;
+  }
+
+  .sair-link{
+    color: #FFFFFF;
   }
 
   @media (max-width: 999px){

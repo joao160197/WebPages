@@ -15,9 +15,12 @@ function Login() {
             <h3 className="title">Faça seu login</h3>
             <input type="text" placeholder="Email" className="input" />
             <input type="password" placeholder="Senha" className="input" />
-            <button className="register" type="submit">
-              Entrar
-            </button>
+            <Link to="/dadospessoais" className="link">
+              {' '}
+              <button className="register" type="submit">
+                Entrar
+              </button>
+            </Link>
             <Link to="/registermenu" className="link">
               {' '}
               Não possuo cadastro.
